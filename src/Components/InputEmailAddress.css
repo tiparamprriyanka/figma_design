@@ -1,0 +1,136 @@
+.frame-child1 {
+    height: 140px;
+    width: 140px;
+    position: relative;
+    border-radius: var(--br-sm);
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .sravani-reddykonda1 {
+    position: relative;
+    font-size: var(--font-size-lg);
+    font-weight: 500;
+    color: var(--gray-900);
+  }
+  .yrs-5ft1 {
+    font-size: var(--text-md-medium-size);
+  }
+  .caste1,
+  .mail-sravanigmailcom1,
+  .occupation1,
+  .phn-9121771,
+  .yrs-5ft1 {
+    position: relative;
+  }
+  .occupation1 {
+    font-size: var(--text-md-medium-size);
+    color: var(--foundation-neutrals-n700);
+  }
+  .frame-div,
+  .join-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3px 0;
+    min-width: 169px;
+  }
+  .frame-div {
+    flex: 1;
+    border-radius: var(--br-5xs);
+    background-color: var(--base-white);
+    border: 1px solid var(--foundation-neutrals-n40);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-direction: row;
+    align-items: center;
+    padding: var(--padding-xl);
+    gap: 0 12px;
+    min-width: 379px;
+    max-width: 100%;
+  }
+  .frame-child2 {
+    height: 140px;
+    width: 140px;
+    position: relative;
+    border-radius: var(--br-sm);
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .sravani-reddykonda2 {
+    position: relative;
+    font-size: var(--font-size-lg);
+    font-weight: 500;
+    color: var(--gray-900);
+  }
+  .yrs-5ft2 {
+    font-size: var(--text-md-medium-size);
+  }
+  .caste2,
+  .mail-sravanigmailcom2,
+  .occupation2,
+  .phn-9121772,
+  .yrs-5ft2 {
+    position: relative;
+  }
+  .occupation2 {
+    font-size: var(--text-md-medium-size);
+    color: var(--foundation-neutrals-n700);
+  }
+  .sravani-reddykonda-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3px 0;
+    min-width: 169px;
+  }
+  .frame-parent1,
+  .input-email-address {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frame-parent1 {
+    flex: 1;
+    border-radius: var(--br-5xs);
+    background-color: var(--base-white);
+    border: 1px solid var(--foundation-neutrals-n40);
+    box-sizing: border-box;
+    overflow: hidden;
+    align-items: center;
+    padding: var(--padding-xl);
+    gap: 0 12px;
+    min-width: 379px;
+  }
+  .input-email-address {
+    align-self: stretch;
+    align-items: flex-start;
+    gap: 0 16px;
+    text-align: left;
+    font-size: var(--text-sm-normal-size);
+    color: var(--foundation-neutrals-n300);
+    font-family: var(--font-outfit);
+  }
+  @media screen and (max-width: 1275px) {
+    .input-email-address {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .frame-child1,
+    .join-section {
+      flex: 1;
+    }
+    .frame-div {
+      flex-wrap: wrap;
+      min-width: 100%;
+    }
+    .frame-child2,
+    .sravani-reddykonda-parent {
+      flex: 1;
+    }
+}
